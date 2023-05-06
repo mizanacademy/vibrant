@@ -8,6 +8,7 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { ExploreComponent } from './explore/explore.component';
 import { RouterModule } from '@angular/router';
+import { ItemDetailsComponent } from './item-details/item-details.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { RouterModule } from '@angular/router';
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    ExploreComponent
+    ExploreComponent,
+    ItemDetailsComponent
   ],
   imports: [
     BrowserModule,
