@@ -1,4 +1,48 @@
 
 .router-link-active {
-    color: red!important;
+    background-color: #8758FB!important;
+    border:1px solid #8758FB!important;
+    border-radius: 20px!important;
+    color: white!important;
+}
+.navbar{
+  width: 60%;
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: 50px;
+  background-color: white!important;
+  position:fixed;
+  left: 20%;
+  top: 5%;
+}
+.navbar-inverse{
+  width:100%;
+  border-radius: 0px;
+  left: 0px;
+  top: 0px;
+  transition: 0.1;
+  padding: 10px 20px;
+}
+
+.navbar-collapse{
+  flex-grow:0!important;
+}
+.my_logo img{
+  width: 60px;
+  height: 70px;
+}
+.my_title{
+  padding-top: 20px;
+  padding-left: 10px;
+}
+.my_title a{
+  font-family:'Press Start 2P', cursive!important;
+  font-size: 20px!important;
+  color: #8758FB!important;
+}
+.nav-link{
+  padding: 5px 20px!important;
+  color: black;
+  border:1px solid white!important;
+  border-radius: 20px!important;
 }
