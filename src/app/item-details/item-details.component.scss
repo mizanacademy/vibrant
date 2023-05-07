@@ -1,3 +1,147 @@
-// .imgss{
-//     background-image: url('assets/images/heading-bg.jpg');
-// }
+*{
+box-sizing: border-box;
+
+
+}
+.imgss{
+    background-image: url('https://templatemo.com/templates/templatemo_577_liberty_market/assets/images/heading-bg.jpg');
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 530px;
+    padding-top: 90px;
+}
+
+
+.imgss h1{
+text-align: center;
+padding-top: 10px;
+}
+
+.button a:hover{
+    background-color: #ffff;
+    color: #7453fc;
+    border: 1px solid #fff;
+}
+
+.button a{
+font-size: 14px;
+color:#fff ;
+background-color: #7453fc;
+border: 1 px solid #7453fc;
+padding: 12px 30px;
+display: inline-block;
+border-radius: 25px;
+font-weight: 500;
+text-transform: capitalize;
+letter-spacing: 0.5px;
+transition: all .3s;
+position: relative;
+overflow: hidden;
+}
+
+a:hover {
+    color: #0a58ca;
+}
+
+.button{
+    text-align: center;
+   transform: translate(0%,-20%);
+   margin-right: 20px;
+}
+
+.button a:hover {
+    background-color: #fff;
+    color: #7453fc;
+    border: 1px solid #fff;
+}
+.button a {
+    font-size: 14px;
+    color: #fff;
+    background-color: #7453fc;
+    border: 1px solid #7453fc;
+    padding: 12px 30px;
+    display: inline-block;
+    border-radius: 25px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+}
+a:hover {
+    color: #0a58ca;
+}
+a {
+    text-decoration: none !important;
+}
+
+
+.main{
+background-image: url('https://templatemo.com/templates/templatemo_577_liberty_market/assets/images/dark-bg.jpg');
+width: 1349px;
+height: 1000px;
+}
+
+
+.mains{
+    width: 100px;
+    height: 2px;
+    background-color: #7453fc;
+    margin: 0 auto 30px auto;
+    transform: translate(0%,6000%);
+}
+
+.strong h2 em{
+color: #7453fc;
+font-style: normal;
+}
+
+.robot img{
+    transform: translate(10%,50%);
+    width: 50%;
+    height: 450px;
+    border-radius: 25px;
+    color: white;
+}
+
+.text{
+    color: white;
+    transform: translate(60%,-110%);
+}
+
+.text h6{
+    transform: translate(5%,-260%);
+}
+
+.row{
+    color: white;
+}
+
+.col-3{
+    transform: translate(240%,-200%);
+    flex: 0 0 auto;
+    width: 25%;
+    
+}
+
+.bid{
+    line-height: 30px;
+    position: relative;
+    z-index: 2;
+}
+
+.col-5{
+    transform: translate(110%,-200%);
+}
+
+.owner{
+    line-height: 30px;
+    position: relative;
+    z-index: 2;
+}
+
+.col-7{
+    transform: translate(143%,-300%);
+}
+

@@ -21,9 +21,17 @@ export class HeaderComponent {
     )
   }
 
+  gotoItemdetails() {
+    console.log("test");
+    this.router.navigate(['item-details']);}
+
+  
   gotoExplore() {
     console.log("test");
     this.router.navigate(['explore']);
 
   }
 }
+
+
+
