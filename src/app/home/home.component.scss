@@ -5,3 +5,103 @@
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
+
+.my_text {
+  color: white !important;
+  font-family: 'Roboto', sans-serif !important;
+  padding: 50px 130px 0px 70px;
+}
+
+.my_text span {
+  font-weight: bold;
+  font-size: 20px !important;
+}
+
+.my_text h1 {
+  font-weight: bold;
+  font-size: 55px !important;
+}
+
+.my_text p {
+  font-size: 16px !important;
+}
+
+.my_text button {
+  color: white !important;
+  outline: none;
+  padding: 10px 20px!important;
+  border: 2px solid #8758FB!important;
+  border-radius: 20px!important;
+}
+
+.my_text .fst_btn {
+background-color: transparent!important;
+}
+.my_text .scd_btn {
+background-color: #8758FB!important;
+}
+.my_carousel{
+  padding: 30px 65px 0px 40px;
+}
+span.carousel-control-prev-icon,span.carousel-control-next-icon{
+  color: #8758FB!important;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 15px;
+  margin-top: 550px;
+  opacity: 1;
+}
+span.carousel-control-prev-icon {
+  margin-left: 370px;
+  background-image: url(../../assets/images/Vector.svg)!important;
+  width: 1rem!important;
+  height: 1rem!important;
+}
+span.carousel-control-next-icon {
+  margin-right: 370px;
+  background-image: url(../../assets/images/Vector2.svg)!important;
+  width: 1rem!important;
+  height: 1rem!important;
+}
+span.carousel-control-prev-icon:hover,span.carousel-control-next-icon:hover{
+  color: #8758FB!important;
+}
+.categories{
+  width: 100%;
+  height: 1800px;
+  background-image: url(../../assets/images/dark-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.line{
+  width: 10%;
+  margin: auto;
+  height:5px;
+  background-color: #8758FB;
+}
+.categories h2{
+  color: white;
+  font-family: 'Roboto', sans-serif !important;
+  text-align: center;
+}
+.categories a{
+  color: #8758FB;
+}
+.categories h4{
+  color: white;
+  font-size: 18px!important;
+  padding-top: 15px;
+}
+.fst{
+  padding: 40px 40px 10px 40px;
+  background-color: rgb(40, 43, 47);
+  border: 1px solid rgb(64, 66, 69);
+  border-radius: 20px;
+}
+.main img {
+  padding:20px;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 50px;
+}
