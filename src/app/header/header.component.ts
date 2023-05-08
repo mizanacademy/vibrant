@@ -22,7 +22,7 @@ export class HeaderComponent {
   }
 
   gotoItemdetails() {
-    console.log("test");
+    console.log("testt");
     this.router.navigate(['item-details']);}
 
   

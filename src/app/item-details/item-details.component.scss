@@ -1,9 +1,10 @@
-*{
-box-sizing: border-box;
+* {
+    box-sizing: border-box;
 
 
 }
-.imgss{
+
+.imgss {
     background-image: url('https://templatemo.com/templates/templatemo_577_liberty_market/assets/images/heading-bg.jpg');
     width: 100%;
     background-repeat: no-repeat;
@@ -12,41 +13,42 @@ box-sizing: border-box;
 }
 
 
-.imgss h1{
-text-align: center;
-padding-top: 10px;
+.imgss h1 {
+    text-align: center;
+    padding-top: 15px;
+    transform: translate(0%,80%);
 }
 
-.button a:hover{
+.button a:hover {
     background-color: #ffff;
     color: #7453fc;
     border: 1px solid #fff;
 }
 
-.button a{
-font-size: 14px;
-color:#fff ;
-background-color: #7453fc;
-border: 1 px solid #7453fc;
-padding: 12px 30px;
-display: inline-block;
-border-radius: 25px;
-font-weight: 500;
-text-transform: capitalize;
-letter-spacing: 0.5px;
-transition: all .3s;
-position: relative;
-overflow: hidden;
+.button a {
+    font-size: 14px;
+    color: #fff;
+    background-color: #7453fc;
+    border: 1 px solid #7453fc;
+    padding: 12px 30px;
+    display: inline-block;
+    border-radius: 25px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
 }
 
 a:hover {
     color: #0a58ca;
 }
 
-.button{
+.button {
     text-align: center;
-   transform: translate(0%,-20%);
-   margin-right: 20px;
+    transform: translate(0%, -20%);
+    margin-right: 20px;
 }
 
 .button a:hover {
@@ -54,6 +56,7 @@ a:hover {
     color: #7453fc;
     border: 1px solid #fff;
 }
+
 .button a {
     font-size: 14px;
     color: #fff;
@@ -69,79 +72,207 @@ a:hover {
     position: relative;
     overflow: hidden;
 }
+
 a:hover {
     color: #0a58ca;
 }
+
 a {
     text-decoration: none !important;
 }
 
 
-.main{
-background-image: url('https://templatemo.com/templates/templatemo_577_liberty_market/assets/images/dark-bg.jpg');
-width: 1349px;
-height: 1000px;
+.main {
+    background-image: url('https://templatemo.com/templates/templatemo_577_liberty_market/assets/images/dark-bg.jpg');
+    width: 1349px;
+    height: 1500px;
 }
 
 
-.mains{
+.mains {
     width: 100px;
     height: 2px;
     background-color: #7453fc;
     margin: 0 auto 30px auto;
-    transform: translate(0%,6000%);
+    transform: translate(0%, 6000%);
 }
 
-.strong h2 em{
-color: #7453fc;
-font-style: normal;
+.strong h2 em {
+    color: #7453fc;
+    font-style: normal;
 }
 
-.robot img{
-    transform: translate(10%,50%);
+.robot img {
+    transform: translate(10%, 50%);
     width: 50%;
     height: 450px;
     border-radius: 25px;
     color: white;
 }
 
-.text{
+.text {
     color: white;
-    transform: translate(60%,-110%);
+    transform: translate(60%, -110%);
 }
 
-.text h6{
-    transform: translate(5%,-260%);
+.text h6 {
+    transform: translate(5%, -260%);
 }
 
-.row{
+.row {
     color: white;
 }
 
-.col-3{
-    transform: translate(240%,-200%);
+.col-3 {
+    transform: translate(236%, -200%);
     flex: 0 0 auto;
     width: 25%;
-    
+
 }
 
-.bid{
+.bid {
     line-height: 30px;
     position: relative;
     z-index: 2;
 }
 
-.col-5{
-    transform: translate(110%,-200%);
+.col-5 {
+    transform: translate(108%, -200%);
 }
 
-.owner{
+.owner {
     line-height: 30px;
     position: relative;
     z-index: 2;
 }
 
-.col-7{
-    transform: translate(143%,-300%);
+.col-7 {
+    transform: translate(143%, -300%);
 }
 
+
+.bidbtn h5 {
+    transform: translate(60%, -900%);
+}
+
+
+.quanty {
+    width: 100px;
+    height: 46px;
+    border: 1px solid #7453fc;
+    outline: none;
+    border-radius: 23px;
+    background-color: transparent;
+    text-align: center;
+    color: white;
+    transform: translate(910%, -560%);
+}
+
+.quanty h6 {
+    margin: 11px;
+    font-size: 18px;
+}
+
+.btn {
+    font-size: 14px;
+    color: #fff;
+    background-color: #7453fc;
+    border: 1px solid #7453fc;
+    padding: 12px 30px;
+    display: inline-block;
+    border-radius: 25px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+    transform: translate(700%, -650%);
+}
+
+.btn:hover {
+    background-color: white;
+    color: #7453fc;
+}
+
+
+.prices {
+    background-color: #7453fc;
+    display: inline-block;
+    font-size: 10px;
+    padding: 7px 13px;
+    border-radius: 29px;
+    color: white;
+    transform: translate(-220%, -310%);
+}
+
+.prices h4 {
+    padding: 2px;
+    font-size: 20px;
+}
+
+#selectme {
+    float: right;
+    width: 150px;
+    background-color: transparent;
+    color: #7453fc;
+    font-weight: 500;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transform: translate(-60%, -570%);
+}
+
+.right-text {
+    color: white;
+}
+
+.david {
+    position: relative;
+    z-index: 2;
+    margin-top: 30px;
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #282b2f;
+    border: 1px solid #404245;
+    width: 370px;
+    height: 230px;
+    transform: translate(18%, -40%);
+    float: left;
+}
+
+.david3 {
+    transform: translate(28%, -62%);
+}
+
+
+.img2 {
+    height: 300px;
+    width: 165px;
+}
+
+.right-text {
+    padding: 30px;
+    width: 100%;
+}
+
+.current-bid .item .right-content .line-dec {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 25px 0px;
+}
+
+.david2 {
+    transform: translate(23%, -39%);
+}
+
+.david4 {
+    transform: translate(19%, -62%);
+}
+
+.david5 {
+    transform: translate(23%, -62%);
+}
