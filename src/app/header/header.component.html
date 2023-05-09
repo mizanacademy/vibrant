@@ -1,32 +1,74 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light" (scroll)="onWindowScroll()">
+<nav
+  class="navbar navbar-expand-lg navbar-light bg-light"
+  (scroll)="onWindowScroll()"
+>
   <div class="container-fluid">
     <div class="d-flex justify-content-between">
-      <div class="my_logo ps-3"><img src="../../assets/images/Logo5.png" alt=""></div>
-      <div class="my_title"> <a class="navbar-brand" href="#">VIBRANT</a></div>
+      <div class="my_logo">
+        <img src="../../assets/images/Logo4.png" alt="" />
+      </div>
+      <div class="my_title"><a class="navbar-brand" href="#">VIBRANT</a></div>
     </div>
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
       <span class="navbar-toggler-icon"></span>
     </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
+    <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav d-flex justify-content-end">
         <li class="nav-item">
-          <a class="nav-link" [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="router-link-active" routerLink="home">Home</a>
+          <a
+            class="nav-link"
+            [routerLinkActiveOptions]="{ exact: true }"
+            routerLinkActive="router-link-active"
+            routerLink="home"
+            >Home</a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link" [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="router-link-active" routerLink="explore" >Explore</a>
+          <a
+            class="nav-link"
+            [routerLinkActiveOptions]="{ exact: true }"
+            routerLinkActive="router-link-active"
+            routerLink="explore"
+            >Explore</a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link" [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="router-link-active" routerLink="item-details">Item Details</a>
+          <a
+            class="nav-link"
+            [routerLinkActiveOptions]="{ exact: true }"
+            routerLinkActive="router-link-active"
+            routerLink="item-details"
+            >Item Details</a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link" [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="router-link-active" routerLink="author">Author</a>
+          <a
+            class="nav-link"
+            [routerLinkActiveOptions]="{ exact: true }"
+            routerLinkActive="router-link-active"
+            routerLink="author"
+            >Author</a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link" [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="router-link-active" routerLink="create-yours">Create Yours</a>
+          <a
+            class="nav-link"
+            [routerLinkActiveOptions]="{ exact: true }"
+            routerLinkActive="router-link-active"
+            routerLink="create-yours"
+            >Create Yours</a
+          >
         </li>
       </ul>
     </div>
-
   </div>
 </nav>
