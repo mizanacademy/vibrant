@@ -276,3 +276,26 @@ a {
 .david5 {
     transform: translate(23%, -62%);
 }
+
+.ff1{
+    transform: translate(0%,-10%)
+}
+
+
+
+
+@media only screen and (max-width:700px) {
+    .imgss h1 {
+        transform: translate(-10%, -62%);
+    }
+    .ff1{
+        transform: translate(-12%, -122%);
+    }
+
+    .button{
+        transform: translate(-12%, -182%);
+    }
+
+  
+
+}
