@@ -11,6 +11,7 @@ import { RouterModule } from '@angular/router';
 import { CreateNftComponent } from './create-nft/create-nft.component';
 import { CurrentlyMarketComponent } from './currently-market/currently-market.component';
 import { ItemDetailsComponent } from './item-details/item-details.component';
+import { YoursJumbotronComponent } from './yours-jumbotron/yours-jumbotron.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ItemDetailsComponent } from './item-details/item-details.component';
     ExploreComponent,
     CreateNftComponent,
     CurrentlyMarketComponent,
-    ItemDetailsComponent
+    ItemDetailsComponent,
+    YoursJumbotronComponent
   ],
   imports: [
     BrowserModule,
