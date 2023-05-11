@@ -8,6 +8,8 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { ExploreComponent } from './explore/explore.component';
 import { RouterModule } from '@angular/router';
+import { CreateNftComponent } from './create-nft/create-nft.component';
+import { CurrentlyMarketComponent } from './currently-market/currently-market.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { RouterModule } from '@angular/router';
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    ExploreComponent
+    ExploreComponent,
+    CreateNftComponent,
+    CurrentlyMarketComponent
   ],
   imports: [
     BrowserModule,
