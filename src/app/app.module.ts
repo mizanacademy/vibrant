@@ -10,6 +10,7 @@ import { ExploreComponent } from './explore/explore.component';
 import { RouterModule } from '@angular/router';
 import { CreateNftComponent } from './create-nft/create-nft.component';
 import { CurrentlyMarketComponent } from './currently-market/currently-market.component';
+import { ItemDetailsComponent } from './item-details/item-details.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { CurrentlyMarketComponent } from './currently-market/currently-market.co
     HomeComponent,
     ExploreComponent,
     CreateNftComponent,
-    CurrentlyMarketComponent
+    CurrentlyMarketComponent,
+    ItemDetailsComponent
   ],
   imports: [
     BrowserModule,

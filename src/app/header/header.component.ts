@@ -21,6 +21,11 @@ export class HeaderComponent {
     )
   }
 
+  gotoItemdetails() {
+    console.log("testt");
+    this.router.navigate(['item-details']);}
+
+  
   gotoExplore() {
     console.log("test");
     this.router.navigate(['explore']);
@@ -38,3 +43,6 @@ export class HeaderComponent {
     }
   }
 }
+
+
+
