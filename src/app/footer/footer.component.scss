@@ -1,0 +1,29 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+footer {
+    background: linear-gradient(132deg, rgb(125, 90, 254) 25%, rgb(160, 84, 244) 100%);
+    text-align: center;
+    padding: 25px 0px;
+}
+
+p {
+    font-size: 15px;
+    line-height: 30px;
+    color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    outline: 0px;
+}
+
+footer p a {
+    color: rgb(255, 255, 255);
+    font-weight: 550 !important;
+    transition: all 0.3s ease 0s;
+}
+a {
+    text-decoration: none !important;
+}
