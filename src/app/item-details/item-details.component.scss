@@ -1,50 +1,3 @@
-* {
-    box-sizing: border-box;
-
-
-}
-
-.imgss {
-    background-image: url('https://templatemo.com/templates/templatemo_577_liberty_market/assets/images/heading-bg.jpg');
-    width: 100%;
-    background-repeat: no-repeat;
-    height: 530px;
-    padding-top: 90px;
-}
-
-
-.imgss h1 {
-    text-align: center;
-    padding-top: 15px;
-    transform: translate(0%,80%);
-}
-
-.button a:hover {
-    background-color: #ffff;
-    color: #7453fc;
-    border: 1px solid #fff;
-}
-
-.button a {
-    font-size: 14px;
-    color: #fff;
-    background-color: #7453fc;
-    border: 1 px solid #7453fc;
-    padding: 12px 30px;
-    display: inline-block;
-    border-radius: 25px;
-    font-weight: 500;
-    text-transform: capitalize;
-    letter-spacing: 0.5px;
-    transition: all .3s;
-    position: relative;
-    overflow: hidden;
-}
-
-a:hover {
-    color: #0a58ca;
-}
-
 .button {
     text-align: center;
     transform: translate(0%, -20%);
@@ -102,6 +55,11 @@ a {
     font-style: normal;
 }
 
+.strong h2 {
+    color: white;
+    transform: translate(35%, 300%);
+}
+
 .robot img {
     transform: translate(10%, 50%);
     width: 50%;
@@ -127,7 +85,7 @@ a {
     transform: translate(236%, -200%);
     flex: 0 0 auto;
     width: 25%;
-
+    border-radius: 20px;
 }
 
 .bid {
@@ -265,37 +223,81 @@ a {
     margin: 25px 0px;
 }
 
-.david2 {
-    transform: translate(23%, -39%);
+
+
+.boss {
+    text-align: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 530px;
+    padding-top: 90px;
+    background-image: url('https://templatemo.com/templates/templatemo_577_liberty_market/assets/images/heading-bg.jpg');
+    color: white;
+    padding: 210px;
 }
 
-.david4 {
-    transform: translate(19%, -62%);
+.boss h1 {
+    padding: 3px;
 }
 
-.david5 {
-    transform: translate(23%, -62%);
+.purple {
+    color: #7453fc;
+    padding-right: 110px;
 }
 
-.ff1{
-    transform: translate(0%,-10%)
+.purple1 {
+    margin-top: -32px;
+    padding-left: 80px;
+
+}
+
+.nft {
+    font-size: 23px;
+}
+
+.nft1 {
+    font-size: 50px;
+}
+
+.trs {
+    padding: 200px;
+    color: white;
+}
+
+.trs img {
+    margin-left: -100px;
+    border-radius: 20px;
+}
+
+
+.market {
+    padding-left: 600px;
+    margin-top: -700px;
 }
 
 
 
-
-@media only screen and (max-width:700px) {
-    .imgss h1 {
-        transform: translate(-10%, -62%);
-    }
-    .ff1{
-        transform: translate(-12%, -122%);
-    }
-
-    .button{
-        transform: translate(-12%, -182%);
-    }
-
-  
-
+.market1 {
+    border-radius: 30px;
 }
+
+.robotman {
+    margin-top: 140px;
+}
+
+
+.collage{
+    transform: translate(-107%,20%);
+    width: 100%;
+}
+
+
+.right-content {
+    padding: 30px;
+    width: 100%;
+}
+.current-bid .item .left-img {
+    flex-basis: 80%;
+    display: inline-flex;
+}
+
