@@ -73,6 +73,11 @@ a{
     transform: translateX(-50%);
 }
 
+.main-button a:hover {
+    background: #fff;
+    color:#7453fc;
+    border: 1px solid #fff;
+}
 .create-nft .item {
     margin-top: 30px;
     position: relative;

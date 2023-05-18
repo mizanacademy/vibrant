@@ -7,6 +7,41 @@
     position: relative;
 }
 
+@media screen and (max-width: 991px) and (min-width: 528px){
+    .currently-market {
+        padding-bottom: 1200px;
+    }
+    .section-heading{
+        margin-bottom: 30px !important;
+    }
+    ul{
+        padding-bottom: 30px !important;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .currently-market {
+        padding-bottom: 2400px;
+    }
+    .section-heading{
+        margin-bottom: 30px !important;
+    }
+    ul{
+        padding-bottom: 30px;
+    }
+  }
+    @media only screen and (max-width: 527px) {
+        .currently-market {
+            padding-bottom: 1400px;
+        }
+        .section-heading{
+            margin-bottom: 30px !important;
+        }
+        ul{
+            padding-bottom: 30px !important;
+        }
+      }
+
 .currently-market .section-heading {
     text-align: left;
 }
@@ -73,7 +108,7 @@ ul, li {
 
 //images
 .currently-market-item {
-    width: 45%;
+    // width: 45%;
     margin: 0 auto;
 }
 
