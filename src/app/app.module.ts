@@ -12,6 +12,8 @@ import { CreateNftComponent } from './create-nft/create-nft.component';
 import { CurrentlyMarketComponent } from './currently-market/currently-market.component';
 import { ItemDetailsComponent } from './item-details/item-details.component';
 import { YoursJumbotronComponent } from './yours-jumbotron/yours-jumbotron.component';
+import { HomeJumbotronComponent } from './home-jumbotron/home-jumbotron.component';
+import { HomeCategoriesComponent } from './home-categories/home-categories.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { YoursJumbotronComponent } from './yours-jumbotron/yours-jumbotron.compo
     CreateNftComponent,
     CurrentlyMarketComponent,
     ItemDetailsComponent,
-    YoursJumbotronComponent
+    YoursJumbotronComponent,
+    HomeJumbotronComponent,
+    HomeCategoriesComponent
   ],
   imports: [
     BrowserModule,
