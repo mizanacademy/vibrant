@@ -1,0 +1,247 @@
+body{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container-fluid {
+    padding: 0px !important;
+}
+
+.row {
+    margin: 0px !important;
+}
+
+.jumbotron {
+    height: 52rem;
+    background-image: url(../../assets/images/banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px !important;
+}
+
+/*Title Start*/
+.my_text {
+    color: white !important;
+    font-family: "Roboto", sans-serif !important;
+    padding: 260px 80px 0px 145px !important;
+}
+
+.my_text span {
+    font-weight: bold;
+    font-size: 20px !important;
+}
+
+.my_text h1 {
+    font-weight: bold;
+    font-size: 55px !important;
+}
+
+.my_text p {
+    font-size: 16px !important;
+}
+
+.my_text button {
+    color: white !important;
+    outline: none;
+    padding: 10px 20px !important;
+    border: 2px solid #8758fb !important;
+    border-radius: 20px !important;
+}
+
+.my_text .fst_btn {
+    background-color: transparent !important;
+}
+
+.my_text .scd_btn {
+    background-color: #8758fb !important;
+}
+
+/*Title End*/
+
+/*Carousel Start*/
+.my_carousel {
+    padding: 160px 160px 0px 80px;
+}
+
+span.carousel-control-prev-icon,
+span.carousel-control-next-icon {
+    color: #8758fb !important;
+    // background-color: white;
+    // border: 1px solid white;
+    // border-radius: 50%;
+    // padding: 15px;
+    // margin-top: 550px;
+    opacity: 1;
+}
+
+span.carousel-control-prev-icon {
+    margin-left: 370px;
+    background-image: url(../../assets/images/Vector.svg) !important;
+    width: 1rem !important;
+    height: 1rem !important;
+}
+
+span.carousel-control-next-icon {
+    margin-right: 370px;
+    background-image: url(../../assets/images/Vector2.svg) !important;
+    width: 1rem !important;
+    height: 1rem !important;
+}
+
+span.carousel-control-prev-icon:hover,
+span.carousel-control-next-icon:hover {
+    color: #8758fb !important;
+}
+
+/*Carousel End*/
+
+/* Responsive Jumbotron*/
+@media screen and (min-width: 1100px) and (max-width: 1565px) {
+
+    .jumbotron {
+        width: 100%;
+        margin: 0px !important;
+        height: 45rem !important;
+    }
+
+    .my_text {
+        padding: 180px 0px 0px 117px !important;
+    }
+
+    .my_carousel {
+        padding: 160px 134px 0px 80px;
+    }
+
+    .my_text span {
+        font-size: 20px !important;
+    }
+
+    .my_text h1 {
+        font-size: 44px !important;
+    }
+
+    .my_text p {
+        font-size: 16px !important;
+    }
+}
+
+@media screen and (min-width: 990px) and (max-width: 1100px) {
+    .jumbotron {
+        width: 100%;
+        margin: 0px !important;
+        height: 35rem !important;
+    }
+
+    .my_text {
+        padding: 160px 0px 0px 90px!important;
+    }
+
+    .my_carousel {
+        padding: 160px 134px 0px 80px;
+    }
+
+    .my_text span {
+        font-size: 14px !important;
+    }
+
+    .my_text h1 {
+        font-size: 25px !important;
+    }
+
+    .my_text p {
+        font-size: 10px !important;
+    }
+}
+
+@media screen and (min-width: 590px) and (max-width: 990px) {
+
+    .jumbotron {
+        width: 100%;
+        margin: 0px !important;
+        height: 35rem !important;
+    }
+
+    .my_text {
+        padding: 160px 55px 0px 90px!important;
+    }
+
+    .my_carousel {
+        padding: 160px 200px 0px 200px;
+    }
+
+    .my_text span {
+        font-size: 16px !important;
+    }
+
+    .my_text h1 {
+        font-size: 45px !important;
+    }
+
+    .my_text p {
+        font-size: 14px !important;
+    }
+}
+@media screen and (min-width: 560px) and (max-width: 590px) {
+
+    .jumbotron {
+        width: 100%;
+        margin: 0px !important;
+        height: 35rem !important;
+    }
+
+    .my_text {
+        padding: 160px 55px 0px 50px!important;
+    }
+
+    .my_carousel {
+        padding: 160px 80px 0px 80px;
+    }
+
+    .my_text span {
+        font-size: 16px !important;
+    }
+
+    .my_text h1 {
+        font-size: 45px !important;
+    }
+
+    .my_text p {
+        font-size: 14px !important;
+    }
+}
+
+@media screen and (min-width: 350px) and (max-width: 590px) {
+
+    .jumbotron {
+        width: 100%;
+        margin: 0px !important;
+        height: 35rem !important;
+    }
+
+    .my_text {
+        padding: 160px 55px 0px 50px!important;
+    }
+
+    .my_carousel {
+        padding: 160px 80px 0px 80px;
+    }
+
+    .my_text span {
+        font-size: 14px !important;
+    }
+
+    .my_text h1 {
+        font-size: 25px !important;
+    }
+
+    .my_text p {
+        font-size: 10px !important;
+    }
+}
+
+@media screen and (min-width: 350px) and (max-width: 463px) {
+    .my_text button {
+    margin-left: 0px!important;
+    margin-top: 20px;
+    }
+}
