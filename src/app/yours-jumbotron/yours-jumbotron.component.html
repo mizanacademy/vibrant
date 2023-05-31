@@ -12,195 +12,148 @@
 </div>
 
 
-
-
-
-
-<div class="container"> <!-- open container -->
-  <div class="row"> <!--  open row -->
-    
-    <div id="form-header" class="col-12">
-      <h1 id="title">Hotel Survey Form</h1>
+<div class="item-details-page">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="section-heading">
+          <div class="line-dec"></div>
+          <h2>Apply For <em>Your Item</em> Here.</h2>
+        </div>
+      </div>
+      <div class="col-lg-12">
+        <form id="contact" action="" method="post">
+          <div class="row">
+            <div class="col-lg-4">
+              <fieldset>
+                <label for="title">Item Title</label>
+                <input type="title" name="title" id="title" placeholder="Ex. Lyon King" autocomplete="on" required="">
+              </fieldset>
+            </div>
+            <div class="col-lg-4">
+              <fieldset>
+                <label for="description">Description For Item</label>
+                <input type="description" name="description" id="description" placeholder="Give us your idea"
+                  autocomplete="on" required="">
+              </fieldset>
+            </div>
+            <div class="col-lg-4">
+              <fieldset>
+                <label for="username">Your Username</label>
+                <input type="username" name="username" id="username" placeholder="Ex. @alansmithee" autocomplete="on"
+                  required="">
+              </fieldset>
+            </div>
+            <div class="col-lg-6">
+              <fieldset>
+                <label for="price">Price Of Item</label>
+                <input type="price" name="price" id="price" placeholder="Price depends on quality. Ex. 0.06 ETH"
+                  autocomplete="on" required="">
+              </fieldset>
+            </div>
+            <div class="col-lg-6">
+              <fieldset>
+                <label for="royalities">Royalties</label>
+                <input type="royalities" name="royalities" id="royalities" placeholder="Common royalties 1-25%"
+                  autocomplete="on" required="">
+              </fieldset>
+            </div>
+            <div class="col-lg-4">
+              <fieldset>
+                <label for="file">Your File</label>
+                <input type="file" id="file" name="myfiles[]" multiple="">
+              </fieldset>
+            </div>
+            <div class="col-lg-8">
+              <fieldset>
+                <button type="submit" id="form-submit" class="orange-button">Submit Your Applying</button>
+              </fieldset>
+            </div>
+          </div>
+        </form>
+      </div>
+      <!-- <div class="col-lg-12">
+        <div class="section-heading">
+          <div class="line-dec"></div> 
+           <h2>This Is<em>Your Item</em>Preview</h2>
+        </div>
+      </div>
+      <div class="col-lg-7">
+        <div class="left-image">
+          <img src="assets/images/create-yours.jpg" alt="" style="border-radius: 20px;">
+        </div>
+      </div>
+      <div class="col-lg-5 align-self-center">
+        <h4>Dolores Haze Westworld Eye</h4>
+        <span class="author">
+          <img src="assets/images/author-02.jpg" alt="" style="max-width: 50px; border-radius: 50%;">
+          <h6>Kataleya Smithee<br><a href="#">@kataleey</a></h6>
+        </span>
+        <p>Lorem ipsum dolor sit amet, consectetu dipiscingei elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua.</p>
+        <div class="row">
+          <div class="col-3">
+            <span class="bid">
+              Current Bid<br><strong>0.06 ETH</strong><br><em>($8055,35)</em>
+            </span>
+          </div>
+          <div class="col-4">
+            <span class="owner">
+              Owner<br><strong>Alan Smithee</strong><br><em>(@asmithee)</em>
+            </span>
+          </div>
+          <div class="col-5">
+            <span class="ends">
+              Ends In<br><strong>3D 05H 20M 58S</strong><br><em>(January 22nd, 2021)</em>
+            </span>
+          </div>
+        </div>
+      </div>
     </div>
-  </div> <!--  close row --> 
- 
- <div class="row"> <!--  open row -->    
-     <div id="form-tagline" class="col-md-4">
-         <div class="form-tagline">
-             <i class="fa fa-envelope fa-5x"></i>
-             <h2>How Are We Doing?</h2>
-             <p id="description" class="lead">We really value your opinion</p>
-         </div>
-     </div>
-    
-     <div id="form-content" class="col-md-8">
-       
-       <form id="survey-form" onsubmit="return false;"> <!-- open form -->
-                           
-           <div class="row form-group">
-              <div class="col-sm-3">
-               <label id="name-label" class="control-label" for="name">*Name:</label>
-              </div>
-             
-              <div class="input-group col-sm-9">
-                <div class="input-group-prepend">
-                   <span class="input-group-text" id="basic-addon-name"><i class="fa fa-user"></i></span>
-                </div>                   
-                <input id="name" type="text" class="form-control" placeholder="Please Enter Your Name" name="name" required>
-              </div>
-           </div>
-            
-           <div class="form-group row">
-              <div class="col-sm-3">
-                <label id="email-label" class="control-label" for="email">*Email:</label>
-              </div>
-            
-              <div class="input-group col-sm-9">
-                <div class="input-group-prepend">
-                   <span class="input-group-text" id="basic-addon-mail"><i class="fa fa-envelope"></i></span>
-                </div>
-                <input type="email" class="form-control" id="email" placeholder="Enter Your Email" name="email" pattern="^[-+.\w]{1,64}@[-.\w]{1,64}\.[-.\w]{2,6}$" required>
-              </div>
-           </div>
-            
-           <div class="form-group row">
-              <div class="col-sm-3">
-                <label id="number-label" class="control-label" for="email">*Room Number:</label>
-              </div>
-            
-              <div class="input-group col-sm-9">
-                <div class="input-group-prepend">
-                   <span class="input-group-text" id="basic-addon-room"><i class="fa fa-door-open"></i></span>
-                </div>
-                <input type="number" class="form-control" id="number" placeholder="Enter Your Room Number" name="number" min="1" max="125" required>
-              </div>
-            </div>
-            
-           <div class="form-group row">    
-              <div class="col-sm-3">
-                <label class="control-label"for="visit-purpose">Type of Trip:</label>
-              </div>
-              
-              <div class="input-group col-sm-9">
-                <div class="input-group-prepend">
-                   <span class="input-group-text" id="basic-addon-purpose"><i class="fa fa-hotel"></i></span>
-                </div>
-                
-                <select class="form-control" id="dropdown">
-                  <option>Business</option>
-                  <option>Couple</option>
-                  <option>Family</option>
-                  <option>Friends</option>
-                  <option>Solo</option>
-                  <option>Event</option>
-                  <option>Other</option>
-                </select>
-                
-              </div>     
-           </div>
-            
-         <div class="form-group row"> 
-           
-              <div class="col-sm-3">
-                 <label class="control-label" for="visit-purpose">Rate Your Stay:</label>
-              </div>
+  </div>
+</div>  -->
 
-              <div class="col-sm-9">
-                
-                <div class="form-check form-check-inline">
-                   <input class="form-check-input" type="radio" name="star-rating" id="five-star" value="five-star">
-                   <label class="form-check-label" for="five-star">Excellent</label>
-                </div>
-
-                <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="star-rating" id="four-star" value="four-star">
-                  <label class="form-check-label" for="four-star">Very Good</label>
-                </div>
-
-                <div class="form-check form-check-inline">
-                 <input class="form-check-input" type="radio" id="three-star" name="star-rating" value="three-star">
-                 <label class="form-check-label" for="three-star">Average</label>
-                </div>
-
-                <div class="form-check form-check-inline">
-                 <input class="form-check-input" type="radio" id="two-star" name="star-rating" value="two-star">
-                 <label class="form-check-label" for="two-star">Poor</label>
-                </div>
-
-                <div class="form-check form-check-inline">
-                 <input class="form-check-input" type="radio" id="one-star" name="star-rating" value="one-star">
-                 <label class="form-check-label" for="one-star">Terrible</label>
-                </div>      
-            
-             </div>
-
-         </div>
-      
-         <hr>  
-            
-         <div class="form-group row"> 
-           
-           <div class="col-sm-3">
-             <label class="control-label" for="visit-purpose">Things You Liked:</label>
-           </div>
-
-           <div class="col-sm-9">
-              
-              <div class="form-check form-check-inline">
-                 <input class="form-check-input" type="checkbox" id="service" value="service">
-                 <label class="form-check-label" for="service">Service</label>
-               </div>
-
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="value" value="value">
-                <label class="form-check-label" for="value">Value</label>
-              </div>
-
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="sleep-quality" value="sleep-quality">
-                <label class="form-check-label" for="sleep-quality">Sleep Quality</label>
-              </div>
-
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="cleanliness" value="cleanliness">
-                <label class="form-check-label" for="cleanliness">Cleanliness</label>
-              </div>
-
-             <div class="form-check form-check-inline">
-                <input class="form-check-input" type="checkbox" id="facilities" value="facilities">
-                <label class="form-check-label" for="facilities">Facilities</label>
-             </div>      
-           </div>
-        
-         </div>
-            
-         <div class="form-group row"> 
-            <div class="col-sm-3">
-              <label class="control-label" for="comment">Comments:</label>
-            </div>
-             
-            <div class="input-group col-sm-9">
-                <div class="input-group-prepend">
-                   <span class="input-group-text" id="basic-addon-mail"><i class="fa fa-comment"></i></span>
-                </div>
-             <textarea class="form-control" rows="5" id="comment"></textarea>
-            </div>  
-         </div>
-           
-         <div class="form-group row">
-           <div class="col-sm-12 submit-button">
-             <button type="submit" id="submit" class="btn btn-default" aria-pressed="true">Submit Form</button>
-           </div>
-         </div>
-                          
-       </form> <!-- close form -->
-
-   </div> <!-- close form content div -->
-          
- </div> <!-- close row -->
-</div><!--  close container -->
-
-<footer>
- <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'>          
- </script>
-</footer>
+<div class="item-details-page">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="section-heading">
+          <div class="line-dec"></div>
+          <h2>This Is <em>Your Item</em> Preview.</h2>
+        </div>
+      </div>
+      <div class="col-lg-7">
+        <div class="left-image">
+          <img src="assets/images/item-details-01.jpg" alt="" style="border-radius: 20px;">
+        </div>
+      </div>
+      <div class="col-lg-5 align-self-center">
+        <h4>Dolores Haze Westworld Eye</h4>
+        <span class="author">
+          <img src="https://templatemo.com/templates/templatemo_577_liberty_market/assets/images/author-02.jpg" alt="" style="max-width: 50px; border-radius: 50%;">
+          <h6>Liberty Artist<br><a href="#">@libertyart</a></h6>
+        </span>
+        <p>Lorem ipsum dolor sit amet, consectetu dipiscingei elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <div class="row">
+          <div class="col-3">
+            <span class="bid">
+              Current Bid<br><strong>6.06 ETH</strong><br><em>($8,025.50)</em>
+            </span>
+          </div>
+          <div class="col-4">
+            <span class="owner">
+              Owner<br><strong>David Walker</strong><br><em>(@davidwalker)</em>
+            </span>
+          </div>
+          <div class="col-5">
+            <span class="ends">
+              Ends In<br><strong>3D 05H 20M 58S</strong><br><em>(January 22nd, 2021)</em>
+            </span>
+          </div>
+        </div>
+        <!-- <form action="submit">
+          <label for="quantity-text">Place Bid:</label>
+          <input placeholder="1 ETH" class="quantity-text">
+          <button type="submit" id="form-submit" class="main-button">Submit Now</button>
+        </form> -->
+      </div>
